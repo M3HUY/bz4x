@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>បញ្ជីត្រួតពិនិត្យមុនទិញ Toyota bZ4X 2024 (China Spec) - 40 ចំណុច</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Khmer Language -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        khmer: ['"Kantumruy Pro"', 'sans-serif'],
+                    },
+                    colors: {
+                        toyota: {
+                            red: '#eb0a1e',
+                            darkred: '#b30514',
+                            dark: '#0f172a',
+                            card: '#1e293b',
+                            accent: '#38bdf8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Kantumruy Pro', sans-serif;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        .checkbox-custom {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border: 2px solid #64748b;
+            border-radius: 6px;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .checkbox-custom:checked {
+            background-color: #10b981;
+            border-color: #10b981;
+        }
+
+        .checkbox-custom:checked::after {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .check-card {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .check-card.checked {
+            background-color: rgba(16, 185, 129, 0.08) !important;
+            border-color: rgba(16, 185, 129, 0.3) !important;
+        }
+
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background: #ffffff !important;
+                color: #000000 !important;
+            }
+            .check-card {
+                background: #ffffff !important;
+                border: 1px solid #cbd5e1 !important;
+                color: #000000 !important;
+                break-inside: avoid;
+            }
+            .text-white, .text-slate-100, .text-slate-200, .text-slate-300 {
+                color: #000000 !important;
+            }
+            .text-slate-400, .text-slate-500 {
+                color: #475569 !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-khmer antialiased pb-20">
+
+    <!-- Header -->
+    <header class="bg-slate-900 border-b border-slate-800 pt-6 pb-6 px-4 sm:px-6 mb-6 shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-toyota-red opacity-10 blur-3xl pointer-events-none"></div>
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div>
+                <div class="flex items-center gap-3">
+                    <span class="bg-toyota-red text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">EV Checklist</span>
+                    <span class="text-xs font-semibold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2.5 py-1 rounded-md">2024 China Spec</span>
+                </div>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-white mt-2 flex items-center gap-2">
+                    Toyota bZ4X <span class="text-toyota-red">Full Trim / Ultra</span>
+                </h1>
+                <p class="text-slate-400 text-xs sm:text-sm mt-1 max-w-2xl">
+                    បញ្ជីត្រួតពិនិត្យបច្ចេកទេស 40 ចំណុច សម្រាប់ពិនិត្យទិញរថយន្តអគ្គិសនីមួយទឹក Toyota bZ4X Spec ចិន (GAC / FAW Toyota)
+                </p>
+            </div>
+            
+            <div class="flex flex-wrap gap-2 text-xs text-slate-300 bg-slate-950/80 p-3 rounded-xl border border-slate-800">
+                <div class="flex items-center gap-1.5 px-2.5 py-1 bg-slate-900 rounded">
+                    <i class="fa-solid fa-battery-full text-emerald-400"></i>
+                    <span>66.7 kWh CATL NMC</span>
+                </div>
+                <div class="flex items-center gap-1.5 px-2.5 py-1 bg-slate-900 rounded">
+                    <i class="fa-solid fa-bolt text-amber-400"></i>
+                    <span>រន្ធសាក GB/T AC/DC</span>
+                </div>
+                <div class="flex items-center gap-1.5 px-2.5 py-1 bg-slate-900 rounded">
+                    <i class="fa-solid fa-car text-toyota-accent"></i>
+                    <span>FWD / X-MODE AWD</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+
+        <!-- Sticky Progress Bar & Actions -->
+        <div class="sticky top-4 z-40 bg-slate-900/95 backdrop-blur-md border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl no-print">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-3">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-toyota-red/10 border border-toyota-red/30 flex items-center justify-center text-toyota-red font-bold text-lg">
+                        <i class="fa-solid fa-clipboard-check"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase tracking-wider font-semibold">លទ្ធផលនៃការត្រួតពិនិត្យ (Progress)</div>
+                        <div class="text-lg font-bold text-white flex items-center gap-2">
+                            បានពិនិត្យ <span id="checked-count" class="text-emerald-400">0</span> / <span id="total-count">40</span> ចំណុច
+                            <span id="percent-badge" class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-semibold">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex items-center gap-2">
+                    <button onclick="resetChecklist()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition border border-slate-700 flex items-center gap-2">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <span>កំណត់ឡើងវិញ</span>
+                    </button>
+                    <button onclick="window.print()" class="px-3.5 py-2 rounded-xl bg-toyota-red hover:bg-toyota-darkred text-white text-xs font-semibold transition shadow-lg shadow-toyota-red/20 flex items-center gap-2">
+                        <i class="fa-solid fa-print"></i>
+                        <span>បោះពុម្ព / PDF</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Progress Bar Line -->
+            <div class="w-full bg-slate-800 h-3 rounded-full overflow-hidden p-0.5 border border-slate-700/50">
+                <div id="progress-bar" class="bg-gradient-to-r from-toyota-red via-amber-500 to-emerald-500 h-full rounded-full transition-all duration-300 ease-out" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <!-- Category Filters & Search -->
+        <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 mb-6 no-print">
+            <div class="flex items-center gap-1 overflow-x-auto pb-2 md:pb-0 scrollbar-none text-xs">
+                <button onclick="filterCategory('all')" class="cat-btn active px-3.5 py-2 rounded-xl bg-toyota-red text-white font-semibold whitespace-nowrap transition" data-cat="all">
+                    ទាំងអស់ (40)
+                </button>
+                <button onclick="filterCategory('cat1')" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 font-medium whitespace-nowrap transition" data-cat="cat1">
+                    1. អាគុយ & GB/T (1-10)
+                </button>
+                <button onclick="filterCategory('cat2')" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 font-medium whitespace-nowrap transition" data-cat="cat2">
+                    2. សូហ្វវែរ (11-18)
+                </button>
+                <button onclick="filterCategory('cat3')" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 font-medium whitespace-nowrap transition" data-cat="cat3">
+                    3. អប្សន Full Trim (19-26)
+                </button>
+                <button onclick="filterCategory('cat4')" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 font-medium whitespace-nowrap transition" data-cat="cat4">
+                    4. បើកបរសាកល្បង (27-34)
+                </button>
+                <button onclick="filterCategory('cat5')" class="cat-btn px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 font-medium whitespace-nowrap transition" data-cat="cat5">
+                    5. គ្រឿងក្រោម (35-40)
+                </button>
+            </div>
+
+            <div class="relative w-full md:w-64">
+                <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+                <input type="text" id="search-input" onkeyup="searchItems()" placeholder="ស្វែងរកពាក្យគន្លឹះ..." class="w-full bg-slate-900 border border-slate-800 rounded-xl pl-9 pr-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-toyota-red transition placeholder-slate-500">
+            </div>
+        </div>
+
+        <!-- Checklist Categories Container -->
+        <div id="checklist-container" class="space-y-8">
+
+            <!-- CATEGORY 1 -->
+            <section class="category-block" data-category="cat1">
+                <div class="flex items-center gap-3 border-b border-slate-800 pb-3 mb-4">
+                    <span class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center font-bold text-sm">C1</span>
+                    <div>
+                        <h2 class="text-base font-bold text-white">ផ្នែកទី ១៖ ប្រព័ន្ធអាគុយ និងការសាកភ្លើង GB/T (HV Battery & Charging)</h2>
+                        <p class="text-xs text-slate-400">ចំណុច ១ ដល់ ១០ • ត្រួតពិនិត្យសុខភាពអាគុយ ដំណើរការសាកភ្លើង GB/T និងប្រព័ន្ធអគ្គិសនី 12V</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="1">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-1" onchange="updateCheckState(1)">
+                        <label for="item-1" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #1</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">GB/T DC Fast Charge</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការសាកភ្លើងល្បឿនលឿន DC (GB/T Fast Charging Test)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ដោតសាកជាមួយទូសាក GB/T DC (ឬប្រើ Adapter): ពិនិត្យមើលថាតើឡាន Handshake ជាប់ក្នុងរយះពេល ៣០ វិនាទី និងឡើងកម្លាំង kW ថេរដោយមិនកាត់ផ្តាច់ស្វ័យប្រវត្តឬទេ?
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="2">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-2" onchange="updateCheckState(2)">
+                        <label for="item-2" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #2</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">GB/T AC Slow Charge</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការសាកភ្លើងតាមផ្ទះ AC (GB/T Home Charger Test)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ដោតសាកជាមួយដុំសាក 7kW ឬ 11kW AC: ពិនិត្យមើលអំពូលសញ្ញាសាកលើកុងទ័រភ្លឺច្បាស់ On-board Charger (OBC) ធ្វើការស្ងាត់ល្អ ដោយគ្មានសំឡេងរោទ៍ចម្លែក។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="3">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-3" onchange="updateCheckState(3)">
+                        <label for="item-3" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #3</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Port Condition</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ពិនិត្យជើងដែកក្នុងរន្ធសាក GB/T (Pin Inspection)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បើកគំរបរន្ធសាកឆ្វេង (AC) និងស្តាំ (DC): ពិនិត្យមើលជើងស្ពាន់ខាងក្នុងក្រែងលោមានស្នាមរលាកខ្លោច រលាយជ័រ ឬស្នាមច្រែះ ដោយសារការប្រើ Adapter គ្មានប្រភពច្បាស់លាស់។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="4">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-4" onchange="updateCheckState(4)">
+                        <label for="item-4" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #4</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Port Lock</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">គន្លឹះចាក់សោក្បាលសាក (Port Latch & Lock Mechanism)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពេលកំពុងដោតសាក សាកល្បងចាក់សោទ្វារឡាន៖ គន្លឹះអេឡិចត្រូនិចត្រូវតែចាក់សោរក្បាលសាក GB/T ជាប់មិនអាចដកចេញបាន និងរបូតចេញវិញពេលចុច Unlock។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="5">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-5" onchange="updateCheckState(5)">
+                        <label for="item-5" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #5</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">OBD2 Battery SOH</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ស្កេនពិនិត្យអាយុកាលអាគុយ (Battery SoH Scan)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ប្រើម៉ាស៊ីន OBD2 Diagnostic Scanner៖ សុខភាពអាគុយ (State of Health) គួរតែ ≥ 92%-95% ឡើងទៅ ហើយភាពខុសគ្នានៃភ្លើងតាម Cell (Cell Voltage Delta) ត្រូវតូចជាង 15mV។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="6">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-6" onchange="updateCheckState(6)">
+                        <label for="item-6" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #6</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">12V Battery</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">វាស់ភ្លើងអាគុយតូច 12V (Auxiliary 12V Check)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">វាស់ភ្លើងអាគុយ 12V ក្រោមគ្របមុខ៖ កម្រិតភ្លើងពេលសម្រាកត្រូវតែ >12.4V។ បើអាគុយ 12V ខ្សោយ វានឹងបង្កឱ្យប្រព័ន្ធ ECU របស់ bZ4X លោត Check Engine លែងដើរ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="7">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-7" onchange="updateCheckState(7)">
+                        <label for="item-7" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #7</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Coolant Level</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ទឹកស្អំប្រព័ន្ធអាគុយ (Battery Thermal Coolant)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពិនិត្យធុងទឹកស្អំ High-Voltage ក្រោមគ្របមុខ៖ កម្រិតទឹកត្រូវនៅចន្លោះ MAX/MIN ហើយទឹកត្រូវមានពណ៌ខៀវ/ផ្កាឈូកថ្លាល្អ គ្មានកកិចិន ឬលាយប្រេង។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="8">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-8" onchange="updateCheckState(8)">
+                        <label for="item-8" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #8</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">HV Cables</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ខ្សែភ្លើងតង់ស្យុងខ្ពស់ពណ៌ទឹកក្រូច (HV Cable Harness)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពិនិត្យខ្សែភ្លើងធំៗពណ៌ទឹកក្រូចក្រោមគ្របមុខ និងក្រោមពោះឡាន៖ ត្រូវប្រាកដថាគ្មានស្នាមកណ្តុរកាត់ដាច់ ស្នាមកកិត ឬស្នាមតខ្សែភ្លើងដោយគ្មានជំនាញ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="9">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-9" onchange="updateCheckState(9)">
+                        <label for="item-9" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #9</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">DTC Codes</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ពិនិត្យកូដកំហុសបេះដូងឡាន (DTC Trouble Code Check)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ស្កេនម៉ាស៊ីនមើលប្រព័ន្ធ Fault Codes៖ ត្រូវប្រាកដថាគ្មានលោតកូដកំហុស (DTC) ក្នុងប្រព័ន្ធ Inverter, Electric Motor Control, ឬប្រព័ន្ធអាគុយ BMS ឡើយ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="10">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-10" onchange="updateCheckState(10)">
+                        <label for="item-10" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded">ចំណុច #10</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Verification</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">សញ្ញា Ready លើកុងទ័រ (Instrument Ready Indicator)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចុច Start បញ្ឆេះឡាន៖ សញ្ញាពាក្យ "READY" ពណ៌បៃតងត្រូវតែភ្លឺឡើងភ្លាមៗលើកុងទ័រ 7 អ៊ីញ ដោយគ្មានលោតសញ្ញាអាគុយពណ៌លឿង/ក្រហមឡើយ។</p>
+                        </label>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CATEGORY 2 -->
+            <section class="category-block" data-category="cat2">
+                <div class="flex items-center gap-3 border-b border-slate-800 pb-3 mb-4">
+                    <span class="w-8 h-8 rounded-lg bg-toyota-accent/10 border border-toyota-accent/30 text-toyota-accent flex items-center justify-center font-bold text-sm">C2</span>
+                    <div>
+                        <h2 class="text-base font-bold text-white">ផ្នែកទី ២៖ សូហ្វវែរ និងប្រព័ន្ធកម្សាន្ត China Spec (Software & Infotainment)</h2>
+                        <p class="text-xs text-slate-400">ចំណុច ១១ ដល់ ១៨ • អេក្រង់ចិន OS, ការប្តូរភាសា, Apple CarPlay និងប្រព័ន្ធបញ្ជា</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="11">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-11" onchange="updateCheckState(11)">
+                        <label for="item-11" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #11</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">12.3" Display</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">អេក្រង់តាបឡូកណ្តាល 12.3 អ៊ីញ (Center Touchscreen Response)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចុច Touch លើគ្រប់ជ្រុងអេក្រង់៖ ត្រូវប្រាកដថាអេក្រង់ដើររលូន គ្មានចំណុចចុចមិនទៅ (Dead Spots), គ្មានចំណុចអុចខ្មៅ (Dead Pixels) ឬស្រអាប់។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="12">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-12" onchange="updateCheckState(12)">
+                        <label for="item-12" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #12</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Language / Firmware</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការប្តូរភាសាអង់គ្លេស/ខ្មែរ (Language Options & Firmware)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពិនិត្យមើល Setting ភាសា៖ ប្រសិនបើឡានបាន Convert ទៅភាសាអង់គ្លេសរួច ត្រូវសាកល្បងចុចចូល Menu ផ្សេងៗក្រែងលោមាន Error ឬគាំងបិទអេក្រង់ (System Crash)។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="13">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-13" onchange="updateCheckState(13)">
+                        <label for="item-13" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #13</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">GPS Mapping</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធផែនទីរណប និង GPS (Built-in GPS Navigation)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពិនិត្យមើលប្រព័ន្ធ GPS ដើមរបស់ចិន៖ ជាទូទៅ Map ដើមចិនមិនដើរក្រៅប្រទេសចិនទេ ប៉ុន្តែត្រូវប្រាកដថាប្រព័ន្ធ GPS Positioning នៅតែចាប់កូអរដោនេឡានបាន។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="14">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-14" onchange="updateCheckState(14)">
+                        <label for="item-14" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #14</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Telematics Lock</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការភ្ជាប់ Internet និង App បញ្ជាពីចម្ងាយ (China Telematics)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ត្រូវយល់ដឹងថា App បញ្ជាឡានពីចម្ងាយ (Remote Climate Control) ត្រូវបាន Lock ក្រៅប្រទេសចិន។ ប៉ុន្តែត្រូវតេស្តមើលការភ្ជាប់ Wi-Fi Hotspot និង Bluetooth ឱ្យបានត្រឹមត្រូវ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="15">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-15" onchange="updateCheckState(15)">
+                        <label for="item-15" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #15</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">CarPlay Test</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការភ្ជាប់ Apple CarPlay / Android Auto</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">សាកល្បងភ្ជាប់ទូរស័ព្ទ iOS/Android តាមរយៈដុំ Adapter CarPlay ឬខ្សែ USB៖ តេស្តមើលការចាក់ចម្រៀង និយាយទូរស័ព្ទ និងប្រើ Google Maps លើអេក្រង់។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="16">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-16" onchange="updateCheckState(16)">
+                        <label for="item-16" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #16</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">7" Cluster</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការបញ្ជាកុងទ័រឌីជីថល 7 អ៊ីញ (Top-Mounted TFT Display)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ប្រើប៊ូតុងលើចង្កូតចុចផ្លាស់ប្តូរ Menu លើកុងទ័រមុខ៖ ពិនិត្យមើលលំហូរថាមពល (Energy Flow) សម្ពាធកង់ (TPMS) និងប្រព័ន្ធសុវត្ថិភាព TSS 3.0។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="17">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-17" onchange="updateCheckState(17)">
+                        <label for="item-17" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #17</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">OTA Updates</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">កំណែទម្រង់សូហ្វវែរ (Software Version & OTA Stability)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចូលមើលត្រង់ Software Info៖ ត្រូវប្រាកដថាកម្មវិធីមិនទាក់ជាប់ក្នុងស្ថានភាព Over-The-Air Update រកមិនឃើញ Network ដែលបង្កឱ្យស៊ីភ្លើងអាគុយ 12V ចោលឡើយ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="18">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-18" onchange="updateCheckState(18)">
+                        <label for="item-18" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-accent bg-sky-950/60 border border-sky-800/50 px-2 py-0.5 rounded">ចំណុច #18</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Verification</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ល្បឿននៃការឆ្លើយតបប្រព័ន្ធ (System UI Latency Verification)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">សាកល្បងចុចចូលកាមេរ៉ា 360 រួចចុចត្រឡប់មក Home វិញលឿនៗ៖ ប្រព័ន្ធត្រូវតែដំណើរការរលូន គ្មានការកើនឡើងកម្ដៅ ឬគាំងអេក្រង់។</p>
+                        </label>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CATEGORY 3 -->
+            <section class="category-block" data-category="cat3">
+                <div class="flex items-center gap-3 border-b border-slate-800 pb-3 mb-4">
+                    <span class="w-8 h-8 rounded-lg bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center font-bold text-sm">C3</span>
+                    <div>
+                        <h2 class="text-base font-bold text-white">ផ្នែកទី ៣៖ បច្ចេកវិទ្យា និងប្រព័ន្ធអប្សន (Full Trim Features & Comfort)</h2>
+                        <p class="text-xs text-slate-400">ចំណុច ១៩ ដល់ ២៦ • ដំបូលសូឡា, កាមេរ៉ា ៣៦០, សំឡេង JBL, កៅអីក្តៅត្រជាក់ និងប្រព័ន្ធកម្តៅជង្គង់</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="19">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-19" onchange="updateCheckState(19)">
+                        <label for="item-19" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #19</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Solar Roof Panel</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ដំបូលសូឡាសាកភ្លើង (Solar Charging Roof Panel)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បើឡានចតក្រោមពន្លឺថ្ងៃ៖ ពិនិត្យមើលអេក្រង់ Energy Monitor ថាតើមានការបញ្ជូនថាមពល watts ពីដំបូលសូឡាចូលទៅសាកអាគុយតូច ឬអាគុយធំដែរឬទេ?</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="20">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-20" onchange="updateCheckState(20)">
+                        <label for="item-20" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #20</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">360 Camera</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">កាមេរ៉ា ៣៦០ ដឺក្រេ និងមើលធ្លុះបាត (Panoramic View Monitor)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចុចប៊ូតុងកាមេរ៉ា 360៖ ពិនិត្យមើលរូបភាពកាមេរ៉ាទាំង ៤ ទិស ត្រូវតែច្បាស់ គ្មានកាមេរ៉ាណាងងឹត និងសមត្ថភាពមើលធ្លុះបាតក្រោម (Transparent Chassis View) ដើរត្រឹមត្រូវ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="21">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-21" onchange="updateCheckState(21)">
+                        <label for="item-21" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #21</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Park Assist</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធចូលចតស្វ័យប្រវត្តិ (Toyota Advanced Park Assist)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">សាកល្បងចុចប៊ូតុង Advanced Park នៅជិតកន្លែងចតឡាន៖ ប្រព័ន្ធត្រូវតែរកឃើញទំនេរ ចាប់យកគំនូសផ្លូវ និងបត់ចូលចតដោយស្វ័យប្រវត្តបានត្រឹមត្រូវ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="22">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-22" onchange="updateCheckState(22)">
+                        <label for="item-22" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #22</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Seat HVAC</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធកៅអីក្តៅ/ត្រជាក់ (Ventilated & Heated Seats)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចុចបើកប្រព័ន្ធកៅអីត្រជាក់ (ខ្យល់បក់ចេញពីកៅអីស្បែក) និងប្រព័ន្ធកៅអីកម្តៅទាំងសងខាង៖ ត្រូវប្រាកដថាកង្ហារបក់ និងធាតុកម្តៅធ្វើការក្នុងរយះពេល ១ នាទី។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="23">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-23" onchange="updateCheckState(23)">
+                        <label for="item-23" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #23</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Radiant Heater</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធកម្តៅជង្គង់ផ្នែកខាងមុខ (Radiant Radiant Knee Heater)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">សម្រាប់ Option Full Ultra របស់ចិន៖ ពិនិត្យមើលផ្ទាំងកម្តៅ Radiant Heater ក្រោមតាបឡូខាងមុខ ត្រូវតែភាយកម្តៅក្តៅមកលើជង្គង់អ្នកបើកបរ និងអ្នករួមដំណើរ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="24">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-24" onchange="updateCheckState(24)">
+                        <label for="item-24" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #24</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">JBL Premium Audio</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធសំឡេង JBL 9 លំពែង (JBL Premium Sound System)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចាក់ចម្រៀងមានសូរ Bass ខ្លាំង៖ តេស្តមើលលំពែងតាមទ្វារទាំង ៤ និង Subwoofer ផ្នែកខាងក្រោយ ត្រូវតែចេញសំឡេងច្បាស់ គ្មានការរញ៉េរញ៉ៃ ឬបែកសំឡេង។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="25">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-25" onchange="updateCheckState(25)">
+                        <label for="item-25" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #25</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Panoramic Sunshade</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">រ៉ូតូរបាំងថ្ងៃដំបូលកញ្ចក់ (Power Sunshade Roof)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចុចប៊ូតុងបើក/បិទ ស្រមោលបាំងថ្ងៃលើដំបូលកញ្ចក់ panoramic៖ ពិនិត្យមើលម៉ូទ័រដើរស្ងាត់ល្អ គ្មានការស្ទះ ឬទាក់ក្រណាត់បាំងថ្ងៃ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="26">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-26" onchange="updateCheckState(26)">
+                        <label for="item-26" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-purple-400 bg-purple-950/60 border border-purple-800/50 px-2 py-0.5 rounded">ចំណុច #26</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Qi Wireless Charging</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">កន្លែងសាកថ្មឥតខ្សែ និងភ្លើង Ambient Lighting</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ដាក់ទូរស័ព្ទលើជើងសាកឥតខ្សែ Qi Charging៖ ត្រូវប្រាកដថាអំពូលសញ្ញាបៃតងភ្លឺសាក។ ពិនិត្យភ្លើងលម្អក្នុងឡាន (Ambient LED Strips) ភ្លឺស្មើល្អ។</p>
+                        </label>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CATEGORY 4 -->
+            <section class="category-block" data-category="cat4">
+                <div class="flex items-center gap-3 border-b border-slate-800 pb-3 mb-4">
+                    <span class="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center font-bold text-sm">C4</span>
+                    <div>
+                        <h2 class="text-base font-bold text-white">ផ្នែកទី ៤៖ ការបើកបរសាកល្បង និងប្រព័ន្ធជើងក្រោម (Drive Test & Suspension)</h2>
+                        <p class="text-xs text-slate-400">ចំណុច ២៧ ដល់ ៣៤ • ប្រព័ន្ធចាប់ហ្វ្រាំងសាកភ្លើង, X-MODE AWD, ភាពស្ងាត់ NVH និងចង្កូត</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="27">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-27" onchange="updateCheckState(27)">
+                        <label for="item-27" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #27</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Regen Braking Boost</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធចាប់ហ្វ្រាំងសាកភ្លើងទោល (Regen Boost Mode)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ចុចប៊ូតុង Regen Boost លើប្រអប់លេខ៖ ពេលលែងជើងគordering ល្បឿនឡានត្រូវតែបន្ថយយ៉ាងលឿនដោយស្វ័យប្រវត្តិ ហើយរបារភ្លើងកុងទ័រលោតចូលផ្លូវ Charge បង្ហាញការសាកភ្លើងចូលវិញ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="28">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-28" onchange="updateCheckState(28)">
+                        <label for="item-28" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #28</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Brake Transition</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ភាពរលូនរវាងហ្វ្រាំងអគ្គិសនី និងហ្វ្រាំងប្រេង (Brake Handoff)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ជាន់ហ្វ្រាំងបញ្ឈប់ឡានពីល្បឿន 50 km/h ដល់ 0៖ ត្រូវប្រាកដថាគ្មានការញ័រទាក់ pedal ហ្វ្រាំង ឬសំឡេងទង្គិចពេលប្រព័ន្ធប្តូរពី Regen Braking ទៅហ្វ្រាំងឌីស។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="29">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-29" onchange="updateCheckState(29)">
+                        <label for="item-29" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #29</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">X-MODE AWD</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធបើកបរផ្លូវលំបាក X-MODE (AWD Dual Motor Models)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">សម្រាប់ bZ4X ប្រភេទវិលកង់ ៤ (AWD)៖ ចុចប្តូរ Mode Snow/Dirt និង Deep Snow/Mud។ ពិនិត្យមើលសញ្ញា X-MODE លោតលើកុងទ័រ និងប្រព័ន្ធ Grip Control ដើរត្រឹមត្រូវ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="30">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-30" onchange="updateCheckState(30)">
+                        <label for="item-30" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #30</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Motor Acoustic NVH</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">សំឡេងម៉ូទ័រ និង Inverter ពេលស្ទុះខ្លាំង (Acceleration Noise)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ជាន់ហ្គែរស្ទុះលឿនពី 0 ទៅ 80 km/h៖ ស្តាប់មើលថាតើមានសំឡេងលည်ក្រែកៗ ឬសំឡេងលည်ស្រែកខ្លាំងខុសធម្មជាតិចេញពីម៉ូទ័រអគ្គិសនីខាងមុខ/ក្រោយដែរឬទេ?</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="31">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-31" onchange="updateCheckState(31)">
+                        <label for="item-31" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #31</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Steering & TSS 3.0</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ភាពត្រង់នៃចង្កូត និងប្រព័ន្ធរក្សាគន្លង (Lane Tracing Assist)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បើកបរលើផ្លូវត្រង់ លែងដៃពីចង្កូតបន្តិច៖ ឡានត្រូវតែរត់ត្រង់ មិនរវ៉េចរវ៉ាត់ឆ្វេងស្តាំ។ បើកប្រព័ន្ធ TSS 3.0 Lane Tracing Assist ដើរបត់តាមគំនូសផ្លូវរលូន។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="32">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-32" onchange="updateCheckState(32)">
+                        <label for="item-32" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #32</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Suspension Test</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រព័ន្ធបូម និងឡែកជើងក្រោម (Suspension Noise Test)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បើករំលងរលាក់ ឬកាត់ផ្លូវមិនស្មើក្នុងល្បឿន 30 km/h៖ ស្តាប់មើលថាតើមានសំឡេងកុកៗ ឬសំឡេងកកិតចេញពីបូម MacPherson មុខ ឬជើងទម្រក្រោយ Double Wishbone ឬទេ?</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="33">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-33" onchange="updateCheckState(33)">
+                        <label for="item-33" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #33</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Rotary Dial</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">កុងតាក់មូលចូលលេខ (Rotary Shifter Operation)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">សាកល្បងចុចមូលបង្វិលលេខ P, R, N, D ចុះឡើងច្រើនដង៖ កុងតាក់ត្រូវតែផ្លាស់ប្តូរលេខបានរហ័ស គ្មានការទាក់ ឬលោត Error Shift System Fault។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="34">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-34" onchange="updateCheckState(34)">
+                        <label for="item-34" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-amber-400 bg-amber-950/60 border border-amber-800/50 px-2 py-0.5 rounded">ចំណុច #34</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Verification</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ភាពស្ងាត់នៃកាប៊ីនក្នុងល្បឿនលឿន (Acoustic Glass NVH)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បើកបរក្នុងល្បឿន 90 km/h លើផ្លូវជាតិ៖ ពិនិត្យមើលកញ្ចក់ការពារសំឡេង Acoustic Glass កាត់បន្ថយសំឡេងខ្យល់ និងសំឡេងកកិតកង់បានស្ងាត់ល្អ។</p>
+                        </label>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CATEGORY 5 -->
+            <section class="category-block" data-category="cat5">
+                <div class="flex items-center gap-3 border-b border-slate-800 pb-3 mb-4">
+                    <span class="w-8 h-8 rounded-lg bg-toyota-red/10 border border-toyota-red/30 text-toyota-red flex items-center justify-center font-bold text-sm">C5</span>
+                    <div>
+                        <h2 class="text-base font-bold text-white">ផ្នែកទី ៥៖ គ្រឿងក្រោម គ្រោងឆ្អឹង និងសុវត្ថិភាព (Undercarriage & Safety Recalls)</h2>
+                        <p class="text-xs text-slate-400">ចំណុច ៣៥ ដល់ ៤០ • អាលុយមីញ៉ូមការពារអាគុយក្រោមពោះ, ប្រវត្តិ recall ខ្ចៅកង់, សំបកកង់ និងការជ្រាបទឹកស្អំ</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="35">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-35" onchange="updateCheckState(35)">
+                        <label for="item-35" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-red bg-rose-950/60 border border-rose-800/50 px-2 py-0.5 rounded">ចំណុច #35</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Battery Shield</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">អាលុយមីញ៉ូមការពារបាតអាគុយ (Underbody Battery Shield)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ប្រើពិលបញ្ចាំងមើលបាតក្រោមអាគុយ៖ ត្រូវប្រាកដថាគ្មានស្នាមទង្គិចក្រពឹតជម្រៅខ្លាំង ស្នាមកកិតធ្ងន់ធ្ងរ ឬស្នាមប្រេះស្រទាប់ការពារឡើយ។ បាតអាគុយក្រពឹតអាចប៉ះពាល់ដល់ Cell ខាងក្នុង។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="36">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-36" onchange="updateCheckState(36)">
+                        <label for="item-36" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-red bg-rose-950/60 border border-rose-800/50 px-2 py-0.5 rounded">ចំណុច #36</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Wheel Hub Recall</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ប្រវត្តិ Recall ខ្ចៅកង់ (Wheel Hub Bolt Fix Campaign)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពិនិត្យមើលខ្ចៅកង់ទាំង ២០៖ ត្រូវប្រាកដថាត្រូវបានផ្លាស់ប្តូរខ្ចៅ និងក្រវ៉ាត់ Hub Bolt ជំនាន់ថ្មីពីតូយ៉ូតារួចរាល់ (បាត់បង់បញ្ហារបូតកង់របស់ bZ4X) និងរឹតតាម standard torque។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="37">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-37" onchange="updateCheckState(37)">
+                        <label for="item-37" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-red bg-rose-950/60 border border-rose-800/50 px-2 py-0.5 rounded">ចំណុច #37</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Camera Glass</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">កញ្ចក់មុខផ្នែកកាមេរ៉ាសុវត្ថិភាព TSS 3.0</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">ពិនិត្យមើលផ្នែកកញ្ចក់ខាងលើដែលបំពាក់កាមេរ៉ា TSS 3.0 Radar Sensor៖ ត្រូវប្រាកដថាគ្មានស្នាមបែក/ស្តើង ឬការបិទស្កុត UV ក្រាស់ពេកដែលបាំងភ្នែកកាមេរ៉ាឡើយ។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="38">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-38" onchange="updateCheckState(38)">
+                        <label for="item-38" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-red bg-rose-950/60 border border-rose-800/50 px-2 py-0.5 rounded">ចំណុច #38</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Quad-LED Lights</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ចង្កៀងមុខ Quad-LED និងភ្លើងស្ទ្រីបខាងក្រោយ</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បើកភ្លើងចង្កៀងមុខ projector LED ទាំង ៤ និងភ្លើង LED Lightbar ខាងក្រោយ៖ ពិនិត្យមើលថាតើមានទឹកដក់/ស្អុះក្នុងចង្កៀង ឬមានអំពូល LED ណាងាប់ដែរឬទេ?</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="39">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-39" onchange="updateCheckState(39)">
+                        <label for="item-39" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-red bg-rose-950/60 border border-rose-800/50 px-2 py-0.5 rounded">ចំណុច #39</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">EV Tires</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">គុណភាពសំបកកង់ឡានអគ្គិសនី (20-inch EV Low Noise Tires)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">វាស់ជម្រៅក្រឡាសំបកកង់ R20 (ត្រូវតែ ≥ 4mm)៖ ពិនិត្យមើលស្នាមស៊ីកង់ចៀងខាងក្នុង/ក្រៅ ដោយសារកម្លាំង Torque ឡានអគ្គិសនីខ្លាំងអាចធ្វើឱ្យកង់ឆាប់សឹក។</p>
+                        </label>
+                    </div>
+
+                    <div class="check-card bg-slate-900 border border-slate-800/80 rounded-xl p-4 flex gap-3 hover:border-slate-700 transition" data-id="40">
+                        <input type="checkbox" class="checkbox-custom chk-item mt-0.5" id="item-40" onchange="updateCheckState(40)">
+                        <label for="item-40" class="cursor-pointer flex-1">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-xs font-bold text-toyota-red bg-rose-950/60 border border-rose-800/50 px-2 py-0.5 rounded">ចំណុច #40</span>
+                                <span class="text-[10px] text-slate-400 uppercase font-mono">Leak Verification</span>
+                            </div>
+                            <h3 class="text-sm font-semibold text-slate-100 mb-1">ការពិនិត្យជ្រាបទឹក និងប្រេងបន្ទាប់ពីបើកបរ (Post Drive Leak Check)</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">បន្ទាប់ពីបើកបរសាកល្បង ១៥ នាទីដោយបើកម៉ាស៊ីនត្រជាក់៖ ចតឡានលើកន្លែងស្អាត រួចអើតមើលក្រោមពោះ៖ ត្រូវប្រាកដថាគ្មានការជ្រាបទឹកស្អំអាគុយ ឬប្រេងលេខ motor ឡើយ។</p>
+                        </label>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Empty Search State -->
+        <div id="empty-state" class="hidden text-center py-16 bg-slate-900 rounded-2xl border border-slate-800 mt-6">
+            <i class="fa-solid fa-magnifying-glass text-4xl text-slate-600 mb-3"></i>
+            <h3 class="text-base font-bold text-slate-300">រកមិនឃើញចំណុចដែលត្រូវគ្នានឹងការស្វែងរក</h3>
+            <p class="text-xs text-slate-500 mt-1">សូមសាកល្បងបញ្ចូលពាក្យគន្លឹះផ្សេងទៀត ឬលុបពាក្យស្វែងរកចេញ។</p>
+        </div>
+
+    </div>
+
+    <!-- Application Logic -->
+    <script>
+        const TOTAL_ITEMS = 40;
+        const STORAGE_KEY_PREFIX = 'bz4x_khmer_chk_';
+
+        // Load saved checklist state on startup
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSavedState();
+            updateProgressUI();
+        });
+
+        // Save and update individual check state
+        function updateCheckState(itemId) {
+            const checkbox = document.getElementById(`item-${itemId}`);
+            const card = document.querySelector(`.check-card[data-id="${itemId}"]`);
+            
+            if (checkbox.checked) {
+                card.classList.add('checked');
+                localStorage.setItem(STORAGE_KEY_PREFIX + itemId, 'true');
+            } else {
+                card.classList.remove('checked');
+                localStorage.removeItem(STORAGE_KEY_PREFIX + itemId);
+            }
+
+            updateProgressUI();
+        }
+
+        // Restore checkboxes from localStorage
+        function loadSavedState() {
+            for (let i = 1; i <= TOTAL_ITEMS; i++) {
+                const isChecked = localStorage.getItem(STORAGE_KEY_PREFIX + i) === 'true';
+                const checkbox = document.getElementById(`item-${i}`);
+                const card = document.querySelector(`.check-card[data-id="${i}"]`);
+
+                if (checkbox && isChecked) {
+                    checkbox.checked = true;
+                    if (card) card.classList.add('checked');
+                }
+            }
+        }
+
+        // Progress bar calculations
+        function updateProgressUI() {
+            let checkedCount = 0;
+            for (let i = 1; i <= TOTAL_ITEMS; i++) {
+                const checkbox = document.getElementById(`item-${i}`);
+                if (checkbox && checkbox.checked) {
+                    checkedCount++;
+                }
+            }
+
+            const percentage = Math.round((checkedCount / TOTAL_ITEMS) * 100);
+            
+            document.getElementById('checked-count').textContent = checkedCount;
+            document.getElementById('total-count').textContent = TOTAL_ITEMS;
+            document.getElementById('percent-badge').textContent = `${percentage}%`;
+            document.getElementById('progress-bar').style.width = `${percentage}%`;
+        }
+
+        // Filter category logic
+        function filterCategory(catName) {
+            document.querySelectorAll('.cat-btn').forEach(btn => {
+                if (btn.dataset.cat === catName) {
+                    btn.classList.add('bg-toyota-red', 'text-white');
+                    btn.classList.remove('bg-slate-900', 'border-slate-800', 'text-slate-400');
+                } else {
+                    btn.classList.remove('bg-toyota-red', 'text-white');
+                    btn.classList.add('bg-slate-900', 'border-slate-800', 'text-slate-400');
+                }
+            });
+
+            const categories = document.querySelectorAll('.category-block');
+            categories.forEach(cat => {
+                if (catName === 'all' || cat.dataset.category === catName) {
+                    cat.classList.remove('hidden');
+                } else {
+                    cat.classList.add('hidden');
+                }
+            });
+
+            document.getElementById('search-input').value = '';
+            document.getElementById('empty-state').classList.add('hidden');
+        }
+
+        // Search algorithm
+        function searchItems() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            const cards = document.querySelectorAll('.check-card');
+            let visibleCount = 0;
+
+            if (query !== '') {
+                document.querySelectorAll('.category-block').forEach(cat => cat.classList.remove('hidden'));
+            }
+
+            cards.forEach(card => {
+                const text = card.innerText.toLowerCase();
+                if (text.includes(query)) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+
+            document.querySelectorAll('.category-block').forEach(cat => {
+                const visibleCardsInCat = cat.querySelectorAll('.check-card:not(.hidden)').length;
+                if (visibleCardsInCat === 0 && query !== '') {
+                    cat.classList.add('hidden');
+                }
+            });
+
+            const emptyState = document.getElementById('empty-state');
+            if (visibleCount === 0 && query !== '') {
+                emptyState.classList.remove('hidden');
+            } else {
+                emptyState.classList.add('hidden');
+            }
+        }
+
+        // Reset checklist progress
+        function resetChecklist() {
+            if (confirm('តើអ្នកពិតជាចង់កំណត់ចំណុចត្រួតពិនិត្យទាំង ៤០ ឡើងវិញមែនទេ?')) {
+                for (let i = 1; i <= TOTAL_ITEMS; i++) {
+                    const checkbox = document.getElementById(`item-${i}`);
+                    const card = document.querySelector(`.check-card[data-id="${i}"]`);
+                    if (checkbox) checkbox.checked = false;
+                    if (card) card.classList.remove('checked');
+                    localStorage.removeItem(STORAGE_KEY_PREFIX + i);
+                }
+                updateProgressUI();
+            }
+        }
+    </script>
+</body>
+</html>
